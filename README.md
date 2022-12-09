@@ -4,11 +4,12 @@ This project shows the steps we have to take setup firebase database.
 
 In the project directory:
 
-Copy Pasted the firebase configuration file.
 
-Run "npm install firebase".
+1.Copy Pasted the firebase configuration file.
 
-Added this line at last of firebase config file.
+2.Run "npm install firebase".
+
+3.Added this line at last of firebase config file.
     export const db = getFirestore(app);
 
-Updated Firebase rules.
+4.Updated Firebase rules.
